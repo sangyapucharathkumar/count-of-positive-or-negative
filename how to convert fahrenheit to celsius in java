@@ -1,0 +1,7 @@
+class fahrenheit_to_celsius {
+    public static void main(String args[]){
+        double fahrenheit=104;
+        double celsius=5/9f*(fahrenheit-32);
+        System.out.println("celsius is:"+celsius);
+    }
+}
