@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class input_using_scanner_in_java {
+    public static void main(String args[]){
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("enter number:");
+            int i=sc.nextInt();
+            System.out.println("you entered number is:"+i);
+        }
+    }
+}
